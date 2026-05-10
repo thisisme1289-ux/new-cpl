@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" role="img" aria-label="Cricket pitch texture">
+  <defs>
+    <linearGradient id="grass" x1="0" x2="1">
+      <stop offset="0" stop-color="#0d4738"/>
+      <stop offset=".5" stop-color="#16815c"/>
+      <stop offset="1" stop-color="#0b3b36"/>
+    </linearGradient>
+    <pattern id="stripe" width="80" height="240" patternUnits="userSpaceOnUse">
+      <rect width="40" height="240" fill="#ffffff" opacity=".045"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="240" fill="url(#grass)"/>
+  <rect width="1200" height="240" fill="url(#stripe)"/>
+  <path d="M392 0h416l-55 240H447z" fill="#c29d55" opacity=".82"/>
+  <path d="M470 0h260" stroke="#f7e6ad" stroke-width="5" opacity=".45"/>
+  <path d="M448 216h305" stroke="#f7e6ad" stroke-width="5" opacity=".45"/>
+</svg>
