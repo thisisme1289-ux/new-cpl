@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Night cricket stadium with floodlights">
+  <defs>
+    <radialGradient id="sky" cx="50%" cy="15%" r="80%">
+      <stop offset="0" stop-color="#263b55"/>
+      <stop offset="0.52" stop-color="#111821"/>
+      <stop offset="1" stop-color="#080b0f"/>
+    </radialGradient>
+    <radialGradient id="light" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#fff8cf" stop-opacity=".96"/>
+      <stop offset=".32" stop-color="#ffe67a" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#ffe67a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="field" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#164b3d"/>
+      <stop offset=".55" stop-color="#0f6b4f"/>
+      <stop offset="1" stop-color="#0c332f"/>
+    </linearGradient>
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <g opacity=".86">
+    <ellipse cx="220" cy="145" rx="210" ry="210" fill="url(#light)"/>
+    <ellipse cx="1380" cy="145" rx="210" ry="210" fill="url(#light)"/>
+    <ellipse cx="790" cy="102" rx="260" ry="200" fill="url(#light)" opacity=".68"/>
+  </g>
+  <g opacity=".42" stroke="#ffe889" stroke-width="2" filter="url(#blur)">
+    <path d="M225 150 560 590M225 150 760 590M225 150 980 590"/>
+    <path d="M1375 150 1040 590M1375 150 840 590M1375 150 620 590"/>
+    <path d="M790 105 635 600M790 105 790 620M790 105 945 600"/>
+  </g>
+  <path d="M0 485c170-72 330-105 525-98 153 6 267 43 405 48 221 8 384-67 670 34v431H0z" fill="#0b1117" opacity=".72"/>
+  <path d="M0 545c192-42 366-55 548-41 163 13 278 50 433 46 200-6 373-57 619 20v330H0z" fill="#101820"/>
+  <g fill="#f7f2e8" opacity=".28">
+    <circle cx="95" cy="525" r="2"/><circle cx="125" cy="531" r="2"/><circle cx="158" cy="522" r="2"/>
+    <circle cx="314" cy="505" r="2"/><circle cx="354" cy="510" r="2"/><circle cx="409" cy="503" r="2"/>
+    <circle cx="1180" cy="516" r="2"/><circle cx="1230" cy="506" r="2"/><circle cx="1290" cy="522" r="2"/>
+    <circle cx="1430" cy="534" r="2"/><circle cx="1484" cy="525" r="2"/><circle cx="1520" cy="538" r="2"/>
+  </g>
+  <ellipse cx="800" cy="850" rx="840" ry="300" fill="url(#field)"/>
+  <path d="M578 730c116-24 327-25 446 0l-62 108c-86 20-240 20-323 0z" fill="#caa764" opacity=".86"/>
+  <path d="M631 760c84-13 258-13 338 0" fill="none" stroke="#f5e7b7" stroke-width="4" opacity=".75"/>
+</svg>

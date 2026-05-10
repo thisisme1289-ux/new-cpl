@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Subtle crowd lights">
+  <defs>
+    <radialGradient id="dot" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#fff2ad" stop-opacity=".9"/>
+      <stop offset=".45" stop-color="#f5c84b" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#f5c84b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="400" fill="#101820"/>
+  <g opacity=".82">
+    <circle cx="82" cy="110" r="34" fill="url(#dot)"/><circle cx="186" cy="166" r="22" fill="url(#dot)"/>
+    <circle cx="284" cy="92" r="27" fill="url(#dot)"/><circle cx="402" cy="190" r="32" fill="url(#dot)"/>
+    <circle cx="540" cy="126" r="24" fill="url(#dot)"/><circle cx="650" cy="210" r="36" fill="url(#dot)"/>
+    <circle cx="778" cy="98" r="26" fill="url(#dot)"/><circle cx="902" cy="168" r="30" fill="url(#dot)"/>
+    <circle cx="1046" cy="120" r="35" fill="url(#dot)"/><circle cx="1130" cy="220" r="25" fill="url(#dot)"/>
+  </g>
+  <path d="M0 300c212-80 388-49 560-57 242-12 404-98 640 4v153H0z" fill="#0a0e13" opacity=".75"/>
+</svg>
